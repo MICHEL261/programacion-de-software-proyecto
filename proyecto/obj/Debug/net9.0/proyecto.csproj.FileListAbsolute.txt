@@ -12,3 +12,4 @@ C:\Users\paplo\OneDrive\Documentos\uni michel\programacion\CODIGO TIENDA DE DISC
 C:\Users\paplo\OneDrive\Documentos\uni michel\programacion\CODIGO TIENDA DE DISCOS\proyecto\obj\Debug\net9.0\proyecto.pdb
 C:\Users\paplo\OneDrive\Documentos\uni michel\programacion\CODIGO TIENDA DE DISCOS\proyecto\obj\Debug\net9.0\proyecto.genruntimeconfig.cache
 C:\Users\paplo\OneDrive\Documentos\uni michel\programacion\CODIGO TIENDA DE DISCOS\proyecto\obj\Debug\net9.0\ref\proyecto.dll
+C:\Users\paplo\OneDrive\Documentos\uni michel\programacion\CODIGO TIENDA DE DISCOS\proyecto\obj\Debug\net9.0\proyecto.sourcelink.json

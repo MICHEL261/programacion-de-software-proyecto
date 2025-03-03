@@ -7,12 +7,34 @@
 var lista_clientes=new List<Clientes>();
 lista_clientes.Add(new Clientes(){id_cliente=1, nombre_cliente= "juan", apellido_cliente= "perez", direccion_cliente="calle 104", telefono_cliente=35044531});
 
+var lista_artistas=new List<Artistas>();
+lista_artistas.Add(new Artistas(){id_Artista=333, nombre_artista= "the doors", genero_musical= "perez"});
+
+var lista_marcas=new List<Marcas>();
+lista_marcas.Add(new Marcas(){id_marca=123, nombre_marca= "sony", sitio_web= "htpps"});
+
+
+var lista_discos=new List<Discos>();
+lista_discos.Add(new Discos(){id_disco=2, nombre_disco="love street", _artista=lista_artistas[0], duracion= 3, fecha_lanzamiento= DateTime.Today,_marca=lista_marcas[0], descripcion="noseee"} );
+
+
+
 foreach(var elemento in lista_clientes){
     Console.Write(elemento.id_cliente);
     Console.Write(elemento.nombre_cliente);
     Console.Write(elemento.apellido_cliente);
     Console.Write(elemento.direccion_cliente);
     Console.Write(elemento.telefono_cliente);
+}
+Console.Write("SEPARACION");
+foreach(var elemento in lista_discos){
+    Console.Write(elemento.id_disco);
+    Console.Write(elemento.nombre_disco);
+    Console.Write(elemento.duracion);
+    Console.Write(elemento.fecha_lanzamiento);
+    Console.Write(elemento.descripcion);
+    Console.Write(elemento._marca.nombre_marca);
+    Console.Write(elemento._artista.nombre_artista);
 }
 
 public class Clientes{
